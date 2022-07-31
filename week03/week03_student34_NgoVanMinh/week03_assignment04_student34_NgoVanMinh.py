@@ -10,12 +10,12 @@ def Fibonacci(n: int):
         return Fibonacci(n-1) + Fibonacci(n-2)
 
 #Khai trien binet
-def fib(nr):
+def fibonaci(nr):
     ratio = (1 + np.sqrt(5)) / 2
     return int(ratio ** nr / np.sqrt(5) + 0.5)
 
 
 if __name__ == '__main__':
     print(Fibonacci(10))
-    print(fib(10))
+    print(fibonaci(10))
     print(sp.fibonacci(10))     #Su dung sympy
